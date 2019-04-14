@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #2c2c2c;
+  font-family: Arial, Tahoma, sans-serif;
+  overflow-y: scroll;
+}
+
+.container-pricing {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+
+.container-outer {
+  background-color: #f2f2f2;
+  color: #2c2c2c;
+  font-family: Arial, Tahoma, sans-serif;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-about {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+
+.add {
+  margin-top: 0;
+  margin: 40px;
+}
