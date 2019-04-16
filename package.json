@@ -1,0 +1,26 @@
+{
+  "name": "Jared-About-Proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickadviser/Jared-About-Proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickadviser/Jared-About-Proxy/issues"
+  },
+  "homepage": "https://github.com/rickadviser/Jared-About-Proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http-proxy": "^1.17.0"
+  }
+}
